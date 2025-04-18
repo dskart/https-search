@@ -1,0 +1,12 @@
+{
+  "links": [
+    "https::foo.com/2.json",
+    "https::foo.com/6.json",
+    "https::foo.com/1.json",
+    "https::foo.com/8.json",
+    "http::foo.com/5.json",
+    "https::foo.com/2.json",
+    "https::foo.com/7.json"
+  ],
+  "data": "This is file 1"
+}

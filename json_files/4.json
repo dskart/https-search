@@ -1,0 +1,9 @@
+{
+  "links": [
+    "https::foo.com/7.json",
+    "http::foo.com/8.json",
+    "https::foo.com/7.json",
+    "https::foo.com/4.json"
+  ],
+  "data": "This is file 4"
+}
