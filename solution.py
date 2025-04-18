@@ -34,6 +34,7 @@ def crawl_https_links(
         if url in visited:
             continue
 
+        visited.add(url)
         data = fetch_json(url, base_dir, use_local)
         links = data.get("links", [])
 
