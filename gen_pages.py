@@ -38,7 +38,7 @@ def generate_json_data(
             while link_to == isolated_file:
                 link_to = random.randint(1, num_files)
 
-            links.append(f"{protocol}::{base_url}/{link_to}.json")
+            links.append(f"{protocol}://{base_url}/{link_to}.json")
 
         if random.random() < 0.3 and i not in [
             int(link.split("/")[-1].split(".")[0]) for link in links
@@ -46,12 +46,12 @@ def generate_json_data(
             self_link_protocol: str = (
                 "https" if random.random() < https_ratio else "http"
             )
-            links.append(f"{self_link_protocol}::{base_url}/{i}.json")
+            links.append(f"{self_link_protocol}://{base_url}/{i}.json")
 
         if not any(link.startswith("https") for link in links):
             idx: int = random.randint(0, len(links) - 1)
-            target: str = links[idx].split("::")[-1]
-            links[idx] = f"https::{target}"
+            target: str = links[idx].split("://")[-1]
+            links[idx] = f"https://{target}"
 
         files[i]["links"] = links
 
@@ -64,7 +64,7 @@ def generate_json_data(
                 while replacement == isolated_file:
                     replacement = random.randint(1, num_files)
                 new_protocol: str = "https" if link.startswith("https") else "http"
-                new_links.append(f"{new_protocol}::{base_url}/{replacement}.json")
+                new_links.append(f"{new_protocol}://{base_url}/{replacement}.json")
             else:
                 new_links.append(link)
         files[i]["links"] = new_links

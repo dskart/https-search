@@ -1,10 +1,11 @@
 {
   "links": [
-    "https::dskart.github.io/https-search/7.json",
-    "https::dskart.github.io/https-search/1.json",
-    "https::dskart.github.io/https-search/8.json",
-    "https::dskart.github.io/https-search/6.json",
-    "https::dskart.github.io/https-search/1.json"
+    "https://dskart.github.io/https-search/7.json",
+    "https://dskart.github.io/https-search/8.json",
+    "http://dskart.github.io/https-search/8.json",
+    "https://dskart.github.io/https-search/4.json",
+    "https://dskart.github.io/https-search/5.json",
+    "https://dskart.github.io/https-search/2.json"
   ],
   "data": "This is file 7"
 }

@@ -1,8 +1,9 @@
 {
   "links": [
-    "https::dskart.github.io/https-search/6.json",
-    "https::dskart.github.io/https-search/4.json",
-    "http::dskart.github.io/https-search/5.json"
+    "http://dskart.github.io/https-search/1.json",
+    "https://dskart.github.io/https-search/1.json",
+    "http://dskart.github.io/https-search/2.json",
+    "https://dskart.github.io/https-search/6.json"
   ],
   "data": "This is file 3"
 }
