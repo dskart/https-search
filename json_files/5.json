@@ -1,12 +1,12 @@
 {
   "links": [
-    "https::foo.com/5.json",
-    "https::foo.com/7.json",
-    "https::foo.com/7.json",
-    "https::foo.com/5.json",
-    "https::foo.com/2.json",
-    "http::foo.com/7.json",
-    "https::foo.com/8.json"
+    "http::dskart.github.io/https-search/4.json",
+    "http::dskart.github.io/https-search/5.json",
+    "https::dskart.github.io/https-search/7.json",
+    "https::dskart.github.io/https-search/8.json",
+    "http::dskart.github.io/https-search/2.json",
+    "https::dskart.github.io/https-search/4.json",
+    "http::dskart.github.io/https-search/6.json"
   ],
   "data": "This is file 5"
 }

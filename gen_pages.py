@@ -98,6 +98,6 @@ def generate_json_files(
 
 if __name__ == "__main__":
     output_dir: str = os.path.join(os.path.dirname(__file__), "json_files")
-    base_url: str = "foo.com"  # Default base URL, can be changed here
+    base_url: str = "dskart.github.io/https-search"
     generate_json_files(output_dir, base_url=base_url, num_files=8, https_ratio=0.7)
     print(f"Done! Files are ready at {output_dir}")

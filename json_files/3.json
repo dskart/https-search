@@ -1,8 +1,8 @@
 {
   "links": [
-    "http::foo.com/8.json",
-    "https::foo.com/6.json",
-    "https::foo.com/6.json"
+    "https::dskart.github.io/https-search/6.json",
+    "https::dskart.github.io/https-search/4.json",
+    "http::dskart.github.io/https-search/5.json"
   ],
   "data": "This is file 3"
 }
